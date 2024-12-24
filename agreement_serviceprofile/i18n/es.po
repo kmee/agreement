@@ -17,6 +17,16 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #. module: agreement_serviceprofile
+#: model:ir.model.fields,help:agreement_serviceprofile.field_product_product__detailed_type
+#: model:ir.model.fields,help:agreement_serviceprofile.field_product_template__detailed_type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory "
+"app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+
+#. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction
 msgid "Action Needed"
 msgstr "Acción necesaria"
@@ -59,12 +69,6 @@ msgid "Attachment Count"
 msgstr "Nº de archivos adjuntos"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_product__is_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_template__is_serviceprofile
-msgid "Create Service Profiles"
-msgstr "Crear Perfiles de Servicio"
-
-#. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__create_uid
 msgid "Created by"
 msgstr "Creado por"
@@ -75,11 +79,7 @@ msgid "Created on"
 msgstr "Creado el"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement__display_name
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__display_name
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_stage__display_name
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_product__display_name
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_template__display_name
 msgid "Display Name"
 msgstr "Nombre a Mostrar"
 
@@ -89,37 +89,22 @@ msgid "Followers"
 msgstr "Seguidores"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_channel_ids
-msgid "Followers (Channels)"
-msgstr "Seguidores (Canales)"
-
-#. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Seguidores (Contactos)"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement__id
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__id
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_stage__id
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_product__id
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_template__id
 msgid "ID"
 msgstr "ID"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,help:agreement_serviceprofile.field_product_product__is_serviceprofile
-#: model:ir.model.fields,help:agreement_serviceprofile.field_product_template__is_serviceprofile
-msgid ""
-"If True, this product will create a service profile on the\n"
-"         agreement when the sales order is confirmed."
-msgstr ""
-"Si es verdadero, este producto creará un perfil de servicio en\n"
-"         acuerdo cuando se confirma el pedido de ventas."
-
-#. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction
-#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_unread
 msgid "If checked, new messages require your attention."
 msgstr "Si está marcado, los nuevos mensajes requieren su atención."
 
@@ -143,11 +128,7 @@ msgid "Is Follower"
 msgstr "Es Seguidor"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement____last_update
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile____last_update
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_stage____last_update
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_product____last_update
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_template____last_update
 msgid "Last Modified on"
 msgstr "Última modificación el"
 
@@ -200,8 +181,8 @@ msgstr "Número de errores"
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_needaction_counter
-msgid "Number of messages which requires an action"
-msgstr "Número de mensajes que requieren una acción"
+msgid "Number of messages requiring action"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_has_error_counter
@@ -209,25 +190,21 @@ msgid "Number of messages with delivery error"
 msgstr "Número de mensajes con error de entrega"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__message_unread_counter
-msgid "Number of unread messages"
-msgstr "Número de mensajes no leídos"
-
-#. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__partner_id
 msgid "Partner"
 msgstr "Contacto"
 
 #. module: agreement_serviceprofile
-#: model:ir.model,name:agreement_serviceprofile.model_product_product
+#: model:ir.model,name:agreement_serviceprofile.model_product_template
 #: model_terms:ir.ui.view,arch_db:agreement_serviceprofile.agreement_serviceprofile_search
 msgid "Product"
 msgstr "Producto"
 
 #. module: agreement_serviceprofile
-#: model:ir.model,name:agreement_serviceprofile.model_product_template
-msgid "Product Template"
-msgstr "Plantilla de Producto"
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_product__detailed_type
+#: model:ir.model.fields,field_description:agreement_serviceprofile.field_product_template__detailed_type
+msgid "Product Type"
+msgstr ""
 
 #. module: agreement_serviceprofile
 #: model_terms:ir.ui.view,arch_db:agreement_serviceprofile.agreement_serviceprofile_search
@@ -252,6 +229,7 @@ msgstr "Variante de Producto de Servicio"
 
 #. module: agreement_serviceprofile
 #: model:ir.model.fields.selection,name:agreement_serviceprofile.selection__agreement_stage__stage_type__serviceprofile
+#: model:ir.model.fields.selection,name:agreement_serviceprofile.selection__product_template__detailed_type__serviceprofile
 #: model_terms:ir.ui.view,arch_db:agreement_serviceprofile.agreement_serviceprofile_form
 msgid "Service Profile"
 msgstr "Perfil de Servicio"
@@ -282,16 +260,6 @@ msgid "Type"
 msgstr "Tipo"
 
 #. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_unread
-msgid "Unread Messages"
-msgstr "Mensajes no Leídos"
-
-#. module: agreement_serviceprofile
-#: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr "Contador de mensajes no Leídos"
-
-#. module: agreement_serviceprofile
 #: model:ir.model.fields,field_description:agreement_serviceprofile.field_agreement_serviceprofile__use_product_variant
 msgid "Use Product Variant"
 msgstr "Usar Variante de Producto"
@@ -305,6 +273,34 @@ msgstr "Mensajes del Sitio Web"
 #: model:ir.model.fields,help:agreement_serviceprofile.field_agreement_serviceprofile__website_message_ids
 msgid "Website communication history"
 msgstr "Historial de comunicación del sitio web"
+
+#~ msgid "Create Service Profiles"
+#~ msgstr "Crear Perfiles de Servicio"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Seguidores (Canales)"
+
+#~ msgid ""
+#~ "If True, this product will create a service profile on the\n"
+#~ "         agreement when the sales order is confirmed."
+#~ msgstr ""
+#~ "Si es verdadero, este producto creará un perfil de servicio en\n"
+#~ "         acuerdo cuando se confirma el pedido de ventas."
+
+#~ msgid "Number of messages which requires an action"
+#~ msgstr "Número de mensajes que requieren una acción"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensajes no leídos"
+
+#~ msgid "Product Template"
+#~ msgstr "Plantilla de Producto"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensajes no Leídos"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensajes no Leídos"
 
 #~ msgid "If checked new messages require your attention."
 #~ msgstr "Si está marcado, los nuevos mensajes requieren su atención."
