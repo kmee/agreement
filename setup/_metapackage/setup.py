@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo-addon-agreement>=16.0dev,<16.1dev',
         'odoo-addon-agreement_legal>=16.0dev,<16.1dev',
+        'odoo-addon-agreement_maintenance>=16.0dev,<16.1dev',
         'odoo-addon-agreement_rebate>=16.0dev,<16.1dev',
         'odoo-addon-agreement_sale>=16.0dev,<16.1dev',
         'odoo-addon-agreement_serviceprofile>=16.0dev,<16.1dev',
