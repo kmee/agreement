@@ -6,18 +6,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-01-27 20:06+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.view_project_agreement_kanban
 msgid "<span class=\"fa fa-ellipsis-v\" aria-hidden=\"true\" title=\"Icon\"/>"
-msgstr ""
+msgstr "<span class=\"fa fa-ellipsis-v\" aria-hidden=\"true\" title=\"Icona\"/>"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__active
@@ -29,17 +31,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_subtype__active
 #: model:ir.model.fields.selection,name:agreement_legal.selection__agreement__state__active
 msgid "Active"
-msgstr ""
+msgstr "Attivo"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 msgid "Administration"
-msgstr ""
+msgstr "Amministrazione"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.res_config_settings_view_form
 msgid "Advanced Features"
-msgstr ""
+msgstr "Funzioni avanzate"
 
 #. module: agreement_legal
 #: model:ir.actions.report,name:agreement_legal.partner_agreement_contract_document
@@ -54,75 +56,75 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.report_agreement_document
 msgid "Agreement"
-msgstr ""
+msgstr "Contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_agreement_appendix
 msgid "Agreement Appendices"
-msgstr ""
+msgstr "Integrazioni contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_agreement_clause
 msgid "Agreement Clauses"
-msgstr ""
+msgstr "Clausole contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_agreement_line
 msgid "Agreement Lines"
-msgstr ""
+msgstr "Righe contratto"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 msgid "Agreement Name"
-msgstr ""
+msgstr "Nome contratto"
 
 #. module: agreement_legal
 #: model:ir.actions.report,name:agreement_legal.partner_agreement_contract_document_preview
 msgid "Agreement Preview"
-msgstr ""
+msgstr "Anteprima contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_agreement_recital
 msgid "Agreement Recitals"
-msgstr ""
+msgstr "Premesse contratto"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_search_view
 msgid "Agreement Search"
-msgstr ""
+msgstr "Ricerca contratto"
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.partner_agreement_action_section
 #: model:ir.model,name:agreement_legal.model_agreement_section
 msgid "Agreement Sections"
-msgstr ""
+msgstr "Sezioni contratto"
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.partner_agreement_action_stage
 msgid "Agreement Stage"
-msgstr ""
+msgstr "Fase contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_agreement_stage
 msgid "Agreement Stages"
-msgstr ""
+msgstr "Fasi contratto"
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.partner_agreement_action_subtype
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_subtype_form_view
 msgid "Agreement Sub-Types"
-msgstr ""
+msgstr "Sottotipi contratto"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__agreement_subtype_id
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_search_view
 msgid "Agreement Sub-type"
-msgstr ""
+msgstr "Sottotipo contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_agreement_subtype
 msgid "Agreement Subtypes"
-msgstr ""
+msgstr "Sottotipi contratto"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__agreement_type_id
@@ -130,24 +132,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_search_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_subtype_search_view
 msgid "Agreement Type"
-msgstr ""
+msgstr "Tipo contratto"
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.partner_agreement_action_type
 #: model:ir.model,name:agreement_legal.model_agreement_type
 msgid "Agreement Types"
-msgstr ""
+msgstr "Tipi contratto"
 
 #. module: agreement_legal
 #: model:mail.activity.type,name:agreement_legal.mail_activity_review_agreement
 msgid "Agreement needs a review"
-msgstr ""
+msgstr "Il contratto richiede una revisione"
 
 #. module: agreement_legal
 #: model:ir.actions.server,name:agreement_legal.ir_cron_test_acc_move_except_ir_actions_server
 #: model:ir.cron,cron_name:agreement_legal.ir_cron_test_acc_move_except
 msgid "Agreement: Check to Review Days"
-msgstr ""
+msgstr "Contratto: controllo per giorni revisione"
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.action_agreement_report_order
@@ -164,40 +166,40 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_form
 #: model_terms:ir.ui.view,arch_db:agreement_legal.res_config_settings_view_form
 msgid "Agreements"
-msgstr ""
+msgstr "Contratti"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_res_partner__agreements_count
 #: model:ir.model.fields,field_description:agreement_legal.field_res_users__agreements_count
 msgid "Agreements Count"
-msgstr ""
+msgstr "Numero contratti"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_stage_form_view
 msgid "Agreements Stage Form"
-msgstr ""
+msgstr "Modulo fase contratti"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_stage_search_view
 msgid "Agreements Stage Search"
-msgstr ""
+msgstr "Ricerca fase contratti"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_subtype_search_view
 msgid "Agreements Sub-Types Search"
-msgstr ""
+msgstr "Ricerca sotto tipi contratti"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_search_view
 msgid "Agreements to review"
-msgstr ""
+msgstr "Contratti da revisionare"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__special_terms
 msgid ""
 "Any terms that you have agreed to and want to track on the "
 "agreement/contract."
-msgstr ""
+msgstr "Qualsiasi temine contrattuale accettato di cui si vuole tenere traccia."
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.agreement_appendix_action
@@ -205,28 +207,28 @@ msgstr ""
 #: model:ir.ui.menu,name:agreement_legal.agreement_appendices
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 msgid "Appendices"
-msgstr ""
+msgstr "Integrazioni"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.agreement_appendix_form
 #: model_terms:ir.ui.view,arch_db:agreement_legal.agreement_appendix_search
 msgid "Appendix"
-msgstr ""
+msgstr "Integrazione"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__approved_user_id
 msgid "Approved By"
-msgstr ""
+msgstr "Approvato da"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__approved_date
 msgid "Approved Date"
-msgstr ""
+msgstr "Data di approvazione"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 msgid "Approved by"
-msgstr ""
+msgstr "Approvato da"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.agreement_appendix_form
@@ -239,44 +241,44 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_subtype_form_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_subtype_search_view
 msgid "Archived"
-msgstr ""
+msgstr "In archivio"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__assigned_user_id
 msgid "Assigned To"
-msgstr ""
+msgstr "Assegnato a"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.report_agreement_document
 msgid "By:"
-msgstr ""
+msgstr "Da:"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.create_agreement_from_template_form_view
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__change_notice
 msgid "Change Notice (Days)"
-msgstr ""
+msgstr "Avviso di modifica (giorni)"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__child_agreements_ids
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 msgid "Child Agreements"
-msgstr ""
+msgstr "Contratti figli"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.agreement_clause_search_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_clause_form_view
 msgid "Clause"
-msgstr ""
+msgstr "Clausola"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_clause__content
 msgid "Clause Content"
-msgstr ""
+msgstr "Contenuto clausola"
 
 #. module: agreement_legal
 #: model:ir.actions.act_window,name:agreement_legal.partner_agreement_action_clause
@@ -286,80 +288,80 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_section_form_view
 msgid "Clauses"
-msgstr ""
+msgstr "Clausole"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__color
 msgid "Color"
-msgstr ""
+msgstr "Colore"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.report_agreement_document
 msgid "Company"
-msgstr ""
+msgstr "Azienda"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__company_contact_id
 msgid "Company Contact"
-msgstr ""
+msgstr "Contatto azienda"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.report_agreement_document
 msgid "Company Information"
-msgstr ""
+msgstr "Informazioni azienda"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__company_partner_id
 msgid "Company's Partner"
-msgstr ""
+msgstr "Partner dell'azienda"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__dynamic_description
 msgid "Compute dynamic description"
-msgstr ""
+msgstr "Calcola la descrizione dinamica"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__dynamic_parties
 msgid "Compute dynamic parties"
-msgstr ""
+msgstr "Calcola parti dinamiche"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__dynamic_special_terms
 msgid "Compute dynamic special terms"
-msgstr ""
+msgstr "Calcola termini speciali dinamici"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Impostazioni configurazione"
 
 #. module: agreement_legal
 #: model:ir.ui.menu,name:agreement_legal.agreement_configuration
 msgid "Configuration"
-msgstr ""
+msgstr "Configurazione"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contatto"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__partner_signed_user_id
 msgid "Contact on the account that signed the agreement/contract."
-msgstr ""
+msgstr "Contatto sul conto che ha firmato il contratto."
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_appendix__content
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_recital__content
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_section_form_view
 msgid "Content"
-msgstr ""
+msgstr "Contenuto"
 
 #. module: agreement_legal
 #: model:ir.ui.menu,name:agreement_legal.agreement_data_contents
 msgid "Contents"
-msgstr ""
+msgstr "Contenuti"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.agreement_appendix_form
@@ -367,7 +369,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_clause_form_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_section_form_view
 msgid "Copy and paste the placeholder expression in the content"
-msgstr ""
+msgstr "Copia e incolla l'espressione segnaposto nel contenuto"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
@@ -375,16 +377,18 @@ msgid ""
 "Copy and paste the placeholder expression in the description or the special "
 "terms"
 msgstr ""
+"Copia e incolla l'espressione segnaposto nella descrizione dei termini "
+"speciali"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.create_agreement_from_template_form_view
 msgid "Create Agreement"
-msgstr ""
+msgstr "Crea contratto"
 
 #. module: agreement_legal
 #: model:ir.model,name:agreement_legal.model_create_agreement_wizard
 msgid "Create Agreement Wizard"
-msgstr ""
+msgstr "Procedura guidata creazione contratto"
 
 #. module: agreement_legal
 #. odoo-javascript
@@ -392,17 +396,17 @@ msgstr ""
 #: model:ir.actions.act_window,name:agreement_legal.create_agreement_from_template_action
 #, python-format
 msgid "Create From Template"
-msgstr ""
+msgstr "Crea modello maschera"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_res_config_settings__module_agreement_sale
 msgid "Create an agreement when the sale order is confirmed."
-msgstr ""
+msgstr "Crea un contratto quando l'ordine di vendita è confermato."
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.res_config_settings_view_form
 msgid "Create an agreement when the sales order is confirmed"
-msgstr ""
+msgstr "Crea un contratto quando gli ordini di vendita sono confermati"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_appendix__create_uid
@@ -414,12 +418,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_subtype__create_uid
 #: model:ir.model.fields,field_description:agreement_legal.field_create_agreement_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creato da"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__create_uid_parent
 msgid "Created by (parent)"
-msgstr ""
+msgstr "Creato da (padre)"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_appendix__create_date
@@ -431,47 +435,48 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_subtype__create_date
 #: model:ir.model.fields,field_description:agreement_legal.field_create_agreement_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creato il"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__create_date_parent
 msgid "Created on (parent)"
-msgstr ""
+msgstr "Creato il (padre)"
 
 #. module: agreement_legal
 #: model:ir.ui.menu,name:agreement_legal.agreement_dashboard
 msgid "Dashboard"
-msgstr ""
+msgstr "Bacheca"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__termination_requested
 msgid "Date that a request for termination was received."
-msgstr ""
+msgstr "Data di ricezione di una richiesta di chiusura."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__termination_date
 msgid "Date that the contract was terminated."
-msgstr ""
+msgstr "Data di chiusura del contratto."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__company_signed_date
 msgid "Date the contract was signed by Company."
-msgstr ""
+msgstr "Data di firma del contratto da parte dell'azienda."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__partner_signed_date
 msgid "Date the contract was signed by the Partner."
-msgstr ""
+msgstr "Data di firma del contratto da parte del partner."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__to_review_date
 msgid "Date used to warn us some days before agreement expires"
 msgstr ""
+"Data utilizzata per avvisare alcuni giorni prima della scadenza del contratto"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.report_agreement_document
 msgid "Date:"
-msgstr ""
+msgstr "Data:"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__default_value
@@ -480,18 +485,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_recital__default_value
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_section__default_value
 msgid "Default Value"
-msgstr ""
+msgstr "Valore predefinito"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__description
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_line__name
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__description
 msgid "Description of the agreement"
-msgstr ""
+msgstr "Descrizione del contratto"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_appendix__display_name
@@ -503,12 +508,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_subtype__display_name
 #: model:ir.model.fields,field_description:agreement_legal.field_create_agreement_wizard__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 #. module: agreement_legal
 #: model:ir.model.fields.selection,name:agreement_legal.selection__agreement__state__draft
 msgid "Draft"
-msgstr ""
+msgstr "Bozza"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_appendix__dynamic_content
@@ -516,37 +521,37 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_recital__dynamic_content
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_section__dynamic_content
 msgid "Dynamic Content"
-msgstr ""
+msgstr "Contenuto dinamico"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__dynamic_description
 msgid "Dynamic Description"
-msgstr ""
+msgstr "Descrizione dinamica"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__dynamic_parties
 msgid "Dynamic Parties"
-msgstr ""
+msgstr "Parti dinamiche"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__dynamic_special_terms
 msgid "Dynamic Special Terms"
-msgstr ""
+msgstr "Termini speciali dinamici"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.view_project_agreement_kanban
 msgid "Edit"
-msgstr ""
+msgstr "Modifica"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__company_contact_email
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__end_date
 msgid "End Date"
-msgstr ""
+msgstr "Data fine"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.agreement_appendix_form
@@ -555,12 +560,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_section_form_view
 msgid "Enter the default value if the field is empty"
-msgstr ""
+msgstr "Inserire il valore predefinito se il campo è vuoto"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__expiration_notice
 msgid "Exp. Notice (Days)"
-msgstr ""
+msgstr "Avviso scad. (giorni)"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__field_id
@@ -569,17 +574,17 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_recital__field_id
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_section__field_id
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.res_config_settings_view_form
 msgid "Field Service"
-msgstr ""
+msgstr "Campo servizio"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement__signed_contract_filename
 msgid "Filename"
-msgstr ""
+msgstr "Nome del file"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__copyvalue
@@ -591,16 +596,18 @@ msgid ""
 "Final placeholder expression, to be copy-pasted in the desired\n"
 "         template field."
 msgstr ""
+"Espressione segnaposto finale, da copiare e incollare dal campo\n"
+"         modello desiderato."
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.partner_agreement_form_view
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #. module: agreement_legal
 #: model_terms:ir.ui.view,arch_db:agreement_legal.res_config_settings_view_form
 msgid "Helpdesk"
-msgstr ""
+msgstr "Assistenza clienti"
 
 #. module: agreement_legal
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_appendix__id
@@ -612,12 +619,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:agreement_legal.field_agreement_subtype__id
 #: model:ir.model.fields,field_description:agreement_legal.field_create_agreement_wizard__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__code
 msgid "ID used for internal contract tracking."
-msgstr ""
+msgstr "ID utilizzato per il monitoraggio del contratto interno."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement__active
@@ -626,12 +633,14 @@ msgstr ""
 msgid ""
 "If unchecked, it will allow you to hide the agreement without removing it."
 msgstr ""
+"Se non selezionato, permette di nascondere il contratto senza rimuoverlo."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement_appendix__active
 msgid ""
 "If unchecked, it will allow you to hide this appendix without removing it."
 msgstr ""
+"Se non selezionato, permette di nascondere l'integrazione senza rimuoverla."
 
 #. module: agreement_legal
 #: model:ir.model.fields,help:agreement_legal.field_agreement_recital__active
